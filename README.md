@@ -4,29 +4,19 @@
 
 ## Ödev: Books CRUD
 
-Bu projede `Book` modeli ekledim ve CRUD sayfalarını yaptım. Scaffolding kullanmadım, controller ve view'ları kendim yazdım.
+Bu projede `Book` modeli ve CRUD sayfalarını yaptım. Scaffolding kullanmadım, controller ve view'ları yazdım.
 
-### Ne yaptım
+### eklenenler
 
-- Book modeli oluşturdum (Name, Author, PublishDate, PageCount, IsSecondHand alanları var, hepsine validation koydum)
-- DbContext'e `DbSet<Book>` ekledim
-- BooksController yazdım (Index, Create, Edit, Delete)
-- Her işlem için ayrı view oluşturdum
-- Navbar'a Books linki ekledim
-- Veritabanı olarak SQLite kullandım
+- Book modeli (Name, Author, PublishDate, PageCount, IsSecondHand, validation)
+- DbContext'e `DbSet<Book>` 
+- BooksController  (Index, Create, Edit, Delete)
+- Her işlem için ayrı view 
+- Navbar'a Books linki 
+- Veritabanı olarak SQLite 
 
 ### Projeyi çalıştırmak için
 
-Repoyu klonlayın:
-```
-git clone https://github.com/variksia/CetStudentBook.git
-cd CetStudentBook/CetStudentBook
-```
-
-EF tool yoksa kurun:
-```
-dotnet tool install --global dotnet-ef
-```
 
 Veritabanını oluşturun ve projeyi başlatın:
 ```
@@ -34,9 +24,7 @@ dotnet ef database update
 dotnet run
 ```
 
-Tarayıcıda açılan linkten Books sekmesine gidebilirsiniz.
 
 ### Ekran görüntüleri
 
-<!-- buraya eklenecek -->
 
